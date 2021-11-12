@@ -11,4 +11,5 @@ const Template = (args) => <Header {...args} />;
 export const Heading = Template.bind({});
 Heading.args = {
   label: "Blog",
+  variant: "h2",
 };

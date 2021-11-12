@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function App({ label }) {
+function App({ label = "Test", variant = "h6" }) {
   const classes = useStyles();
 
   return (
     <div className="App">
       <AppBar className={classes.appBar} position="static">
         <Toolbar>
-          <Typography variant="h6" color="primary">
+          <Typography variant={variant} color="primary">
             {label}
           </Typography>
         </Toolbar>
