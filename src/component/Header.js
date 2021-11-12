@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function App() {
+function App({ label }) {
   const classes = useStyles();
 
   return (
@@ -18,7 +18,7 @@ function App() {
       <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <Typography variant="h6" color="primary">
-            Blog
+            {label}
           </Typography>
         </Toolbar>
       </AppBar>
