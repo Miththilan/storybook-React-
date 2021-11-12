@@ -13,3 +13,15 @@ Red.args = {
   margin: "0 20px",
   height: 250,
 };
+
+export const Small = Template.bind({});
+Small.args = {
+  margin: "0 20px",
+  height: 150,
+};
+
+export const Hight = Template.bind({});
+Small.args = {
+  margin: "0 20px",
+  height: 450,
+};
